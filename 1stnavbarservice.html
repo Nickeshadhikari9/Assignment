@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikesh HTML forms</title>
+    <link rel="stylesheet" href="forms.css">
+    <style>
+        h2{
+    background-color: rgb(145, 61, 223);
+    border: none;
+   
+    border-radius: 10px;
+    display: flex;
+    padding: 15px 15px;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    margin: 10px;
+}
+
+
+
+body{
+    background-color: rgb(33, 33, 33);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 36%!important;
+    margin-right: 36%!important;
+    border: 2px white solid;
+    border-radius: 20px;
+    
+    
+} 
+
+.forms{
+    
+    text-align: center;
+    font-size: large;
+    margin-left: 4%!important;
+    margin-right: 4%!important;
+
+    
+}
+.forms input{
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    color:rgb(145, 61, 223);
+    width: 220px;
+    outline-color: rgb(145, 61, 223);
+    
+    
+}
+.forms input::placeholder{
+    color:rgb(93, 90, 90);
+    
+}
+
+.forms option{
+ 
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(145, 61, 223);
+
+}
+.forms select{
+    height: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    color: rgb(145, 61, 223);
+    outline-color: rgb(145, 61, 223);
+
+}
+.forms label{
+    color: rgb(145, 61, 223);
+}
+.button{
+    margin-bottom: 20px;
+    width: 30%!important;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black!important;
+}
+.button:hover{
+    background-color: rgb(145, 61, 223);
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <h2 >Voter card details form</h2><hr width=100% color="white">
+    <form class="forms" action="backend.php">
+       <label for="firstName"></label>
+        <input style="width: 80%;" type="text" name="myfirstname" id="firstName"placeholder="First Name" autocomplete="off">
+        <label for="middleName"></label><br><br>
+        <input style="width: 80%;" type="text" name="mymiddlename" id="middleName"placeholder="Middle Name"autocomplete="off">
+        <label for="lastName"></label><br><br>
+        <input style="width: 80%;" type="text" name="mylastname" id="lastName"placeholder="Last Name"autocomplete="off"><br>
+        <br><label style="" for="District">District</label>
+        <select style="border-radius: 5px;width:63.5%;height: 30px;" name="mydisytrict"id="District">
+        <option value="none"selected>select</option>
+        <option value="Achham">Achham</option>
+<option value="Arghakhanchi">Arghakhanchi</option>
+<option value="Baglung">Baglung</option>
+<option value="Baitadi">Baitadi</option>
+<option value="Bajhang">Bajhang</option>
+<option value="Bajura">Bajura</option>
+<option value="Banke">Banke</option>
+<option value="Bara">Bara</option>
+<option value="Bardiya">Bardiya</option>
+<option value="Bhaktapur">Bhaktapur</option>
+<option value="Bhojpur">Bhojpur</option>
+<option value="Chitwan">Chitwan</option>
+<option value="Dadeldhura">Dadeldhura</option>
+<option value="Dailekh">Dailekh</option>
+<option value="Dang">Dang</option>
+<option value="Darchula">Darchula</option>
+<option value="Dhading">Dhading</option>
+<option value="Dhankuta">Dhankuta</option>
+<option value="Dhanusha">Dhanusha</option>
+<option value="Dholkha">Dholkha</option>
+<option value="Dolpa">Dolpa</option>
+<option value="Doti">Doti</option>
+<option value="Eastern Rukum">Eastern Rukum</option>
+<option value="Gorkha">Gorkha</option>
+<option value="Gulmi">Gulmi</option>
+<option value="Humla">Humla</option>
+<option value="Ilam">Ilam</option>
+<option value="Jajarkot">Jajarkot</option>
+<option value="Jhapa">Jhapa</option>
+<option value="Jumla">Jumla</option>
+<option value="Kailali">Kailali</option>
+<option value="Kalikot">Kalikot</option>
+<option value="Kanchanpur">Kanchanpur</option>
+<option value="Kapilvastu">Kapilvastu</option>
+<option value="Kaski">Kaski</option>
+<option value="Kathmandu">Kathmandu</option>
+<option value="Kavrepalanchok">Kavrepalanchok</option>
+<option value="Khotang">Khotang</option>
+<option value="Lalitpur">Lalitpur</option>
+<option value="Lamjung">Lamjung</option>
+<option value="Mahottari">Mahottari</option>
+<option value="Makwanpur">Makwanpur</option>
+<option value="Manang">Manang</option>
+<option value="Morang">Morang</option>
+<option value="Mugu">Mugu</option>
+<option value="Mustang">Mustang</option>
+<option value="Myagdi">Myagdi</option>
+<option value="Nawalpur">Nawalpur</option>
+<option value="Nuwakot">Nuwakot</option>
+<option value="Okhaldhunga">Okhaldhunga</option>
+<option value="Palpa">Palpa</option>
+<option value="Panchthar">Panchthar</option>
+<option value="Parbat">Parbat</option>
+<option value="Parsa">Parsa</option>
+<option value="Pyuthan">Pyuthan</option>
+<option value="Ramechhap">Ramechhap</option>
+<option value="Rasuwa">Rasuwa</option>
+<option value="Rautahat">Rautahat</option>
+<option value="Rolpa">Rolpa</option>
+<option value="Rukum">Rukum</option>
+<option value="Rupandehi">Rupandehi</option>
+<option value="Salyan">Salyan</option>
+<option value="Sankhuwasabha">Sankhuwasabha</option>
+<option value="Saptari">Saptari</option>
+<option value="Sarlahi">Sarlahi</option>
+<option value="Sindhuli">Sindhuli</option>
+<option value="Sindhupalchok">Sindhupalchok</option>
+<option value="Siraha">Siraha</option>
+<option value="Solukhumbu">Solukhumbu</option>
+<option value="Sunsari">Sunsari</option>
+<option value="Surkhet">Surkhet</option>
+<option value="Syangja">Syangja</option>
+<option value="Tanahun">Tanahun</option>
+<option value="Taplejung">Taplejung</option>
+<option value="Terhathum">Terhathum</option>
+<option value="Udayapur">Udayapur</option>
+<option value="Western Rukum">Western Rukum</option></select>
+        <br><br><label style="text-align: center;"for="province">Province</label>
+        <select style="border-radius: 5px;width:60.5%;height: 30px;" name="myprovince"id="province">
+        <option value="none"selected>select</option>
+        <option value="Koshi">Koshi pradesh</option>
+        <option value="Madhesh">Madhesh Pradesh</option>
+        <option value="Bagmati">Bagmati Pradesh</option>
+        <option value="Karnali">Gandaki Pradesh</option>
+        <option value="Mahakali">Lumbini Pradesh</option>
+        <option value="Narayani">Karnali Pradesh</option>
+        <option value="Bheri">Sudur Paschim Pradesh</option></select>
+        <br><br><label  for="city" >City/Village</label>
+        <input style="height:30px;border-radius: 5px;width: 50.5%;" type="text"name="city" id="mycity"autocomplete="off"><br>
+        <br><label for="citizenship">Citizenship No.</label>
+        <input style="height:30px;border-radius: 5px;width: 42%;" type="number"name="citizenship"id="mycitizenship">
+        <br><br><label for="liscence">Liscence No.</label>
+        <input style="height:30px;border-radius: 5px;width: 48.5%;" type="number"name="liscence"id="myliscence"><br><br>
+       
+        <span style="margin-left:8%;color:rgb(145, 61, 223);">Gender: Male</span><input class="gender" style="margin-top:0% ;margin-left: -11%;cursor: pointer;" type="radio"name="mygender"><br><span style="margin-left: 26.5% ;color:rgb(145, 61, 223">Female</span><input class="gender" style="margin-left: -16.5%;cursor: pointer;" type="radio"name="mygender">
+        <br><br><label  for="profession">Profession</label>
+        <textarea style="  outline-color: rgb(145, 61, 223);max-width: 53%;border-radius: 5px;max-height: 30px;min-height: 30px;min-width: 53%; font-size: x-large;font-weight: bolder;vertical-align: middle;text-align: left;color: rgb(145, 61, 223);" name="myprofession" cols="20" rows="1" id="profession"></textarea><br><br>
+        <span style="color:rgb(145, 61, 223);text-align: center;">All the above information is true/legit.<br>Incase of wrong information I must plead guilty.</span><br><input style="cursor: pointer;" type="Checkbox" selsected name="myplead">
+        <br><br><input class="button" type="reset" value="Reset"><input class="button"  type="Submit" value="Submit">
+    </form>
+</body>
+</html>

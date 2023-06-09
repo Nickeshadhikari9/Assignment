@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: rgb(33, 33, 33);
+            box-sizing: border-box;
+            margin-left: 0px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+            color: rgb(218, 216, 216);
+           
+        }
+
+        h1 {
+            color: rgb(145, 61, 223);
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .discription {
+
+            text-align: center;
+        }
+
+        .icon {
+            display: flex;
+            margin-bottom: 5px;
+
+        }
+
+        .info h4 {
+            display: flex;
+            justify-content: left;
+            margin-top: -38px;
+            margin-left: 45px;
+            display: flex;
+            font-weight: bold;
+            color: rgb(145, 61, 223);
+
+        }
+
+        .ad {
+            margin-top: -27px !important;
+            color: rgb(145, 61, 223);
+        }
+
+        .ph {
+            margin-top: -28px !important;
+            color: rgb(145, 61, 223);
+        }
+
+        p {
+            margin-left: 45px;
+            padding: -1px;
+        }
+
+        .e {
+            
+            margin-left: 45px;
+            text-decoration: none;
+            
+        }
+
+        .below {
+
+            text-align: center;
+        }
+
+        .links {
+
+
+            text-decoration: none;
+            display: flex;
+            justify-content: center !important;
+            margin-left: 6%;
+
+        }
+        #main{
+            margin-left:335px ;
+        }
+        #main .message{
+            display: flex;
+            justify-content: right;
+            margin-top: -26.7%;
+            margin-right: 24%;
+            border: 1px solid #242222;
+            border-radius: 10px;
+        padding: 9px; 
+        margin-left:53%;
+        background-color: rgba(146, 144, 146, 0) ;
+        max-height: fit-content;
+         background-color: rgb(145, 61, 223);   
+         
+        }
+        #bottom{
+            margin-top: 5%;
+            
+        }
+       
+       input[type="text"], input[type="email"], input[type="textbox"] {
+        border: none;
+        border-radius: 5px;
+        margin: 5px;background-color: rgb(54, 54, 54);
+         
+    }
+   
+    #main .message .submit{
+        border-color: rgb(54, 54, 54);
+        background-color: rgb(248, 248, 248);
+        border-radius: 10px;
+        margin-right: 50px;
+        margin-left: 4px;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-bottom: 10%;
+    }
+    #main .message .submit:hover{
+        background-color: rgb(196, 147, 241);
+       
+    }
+    .e:hover{
+        color: rgb(145, 61, 223);
+        text-decoration: underline;
+    }
+    #bottom a:hover{
+        color: rgb(145, 61, 223);
+    }
+       
+
+        
+
+    </style>
+</head>
+
+<body>
+    <h1>
+        Contact Me
+    </h1>
+    <p class="discription">
+        You can directly visit me in the below address or you can get in touch through my social media handles.<br>
+        You can also get in touch through my official mail below by filling the details.
+    </p><div id="main">
+    <div class="info">
+        <br> <i class="fa fa-home" class="icon" style="font-size:36px;"></i>
+        <h4 class="ad">Address</h4>
+        <p>Kachankawal-2,Jhapa</p>
+        <p>Koshi Pradesh,Nepal</p>
+        <i class="fa fa-phone" class="icon" style="font-size:36px"></i>
+        <h4 class="ph">Phone</h4>
+        <p>+977 9807969039</p>
+        <i class="material-icons" class="icon" style="font-size:36px">&#xe0be;</i>
+        <h4>E-Mail</h4>
+        <a class="e" href="mailto:nickeshadhikari@gmail.com">nickeshadhikari@gmail.com</a>
+    </div>
+    <div class="message">
+        <h6 style="color: rgb(252, 252, 252);margin-right: -53%;font-size: large;font-weight: bold;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Send Message</h6>
+        <form>
+            <br><br><label for="name"></label>
+            <input style=" color: rgb(218, 216, 216);" type="text" name="myname" id="name" placeholder="Full Name" autocomplete="off">
+            <br><label for="email"></label>
+            <input style=" color: rgb(218, 216, 216);" type="email" name="myemail" id="email" placeholder="E-mail" autocomplete="off">
+            <br><label for="message"></label>
+            <textarea style="border: none;margin-left: 2%;margin-top: 4px;background-color: rgb(54, 54, 54);max-width: 100%;max-height: 60px;resize: vertical;border-radius: 5px;min-height: 32px;width:240px; color: rgb(218, 216, 216);"  name="mymessage" cols="20" rows="1" id="message"placeholder="Type your message"></textarea>
+            <br><input class="submit" type="reset" value="Reset"><input class="submit" type="Submit" value="Submit">
+        </div>
+        </form>
+    </div></div>
+    <div id="bottom">
+        <br><br>
+        <h4 class="below">Social Media Handles</h4>
+        <div class="links">
+            <a style="margin-right: 20px;" href="https://www.facebook.com/profile.php?id=100022588837150"
+                target="_blank"><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
+            <a style="margin-right: 20px;margin-top: 10px;" href="https://github.com/Nickeshadhikari9"
+                target="_blank"><i class="fa fa-github"
+                    style="font-size:35px;margin-top: -10px;margin-left: 5px;"></i></a>
+            <a style="margin-right: 80px;" href="https://www.instagram.com/nickeshadhikari0/" target="_blank"><i
+                    class="fa fa-instagram" style="font-size:36px"></i></a>
+        </div>
+   
+
+    <div class="copy">
+    <p style="text-align: center;font-size: small;"><i style="font-size:24px;margin-top: 0px;" class="fa">&#xf1f9;</i>2023 by <a style="text-decoration: none;"
+            href="https://www.facebook.com/profile.php?id=100022588837150" target="_blank">Nikesh Adhikari</a>. All
+        Rights Reserved.</p></div> </div>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a209b08554.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+      body{
+        font-family: Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        font-size: 14px;  
+        background-color: white;
+    }
+      h1{
+        text-align: center;
+        margin-top: 12%;
+        font-size: 30px;
+        color: rgb(72, 72, 72);
+      }
+      .sun{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        color: rgb(72, 72, 72);
+      }
+      .power{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        color: rgb(72, 72, 72);
+      }
+      
+      .avoid{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        color: rgb(72, 72, 72);
+      }
+      table{
+        display: flex;
+        margin-top: 3%;
+        margin-left: 25%;
+        margin-right: 25%;
+        border-spacing: 12px 12px;
+        font-size: 13px;
+        color: rgb(72, 72, 72);
+      }
+      .title{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 2%;
+        color: rgb(72, 72, 72);
+        
+      }
+      td{
+        text-align: center;
+        
+      }
+      .row td{
+        background-color: rgba(224, 225, 222, 0.347);
+        padding: 8px;
+        border-radius: 7px;
+        
+      }
+      #form{
+        margin-top: 8.5%;
+        display: flex;
+        justify-content: center;
+      }
+      .send{
+        width: 50%;
+        padding-top: 1.3%;
+        padding-bottom: 1.3%;
+        border-radius: 10px;
+        padding-left: 10px;
+        border:none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        
+      }
+      .send::placeholder{
+        color: rgb(114, 114, 114);
+        font-size: 14px!important;
+      }
+      .send:focus{
+        outline: none;
+
+      }
+      button{
+        border:0.5px black solid;
+        background-color:rgba(255, 255, 255, 0);
+        cursor: pointer;
+        display: flex;
+        margin-top: -2.6%;
+        margin-left: 72%;
+        width: 10px;
+        
+      }
+      .arrow:hover{
+        color: rgb(6, 198, 134);
+      }
+      .arrow{
+        font-size: 18px;
+        color: rgba(194, 193, 193, 0.73);
+      }
+      
+      .lastline{
+        font-size: 10px;
+        text-align: center;
+        margin-top: 2%;
+        color: rgb(93, 93, 93);
+      }
+      a{ text-decoration: none;
+        color: rgb(93, 93, 93);
+      }
+
+    </style>
+</head>
+<body>
+    <h1>कुराकानीGPT</h1>
+    <table>
+            <tr>
+                <td style="width: 33%;"><span class="sun"><i class="fa-solid fa-sun"></i></span><p class="title">Examples</p></td>
+                <td style="width: 33%;"><span class="power"><i class="fa-solid fa-bolt"></i></span><p class="title">Capabilities</p></td>
+                <td style="width: 33%;" ><span class="avoid"><i class="fa-solid fa-triangle-exclamation"></i></span><p class="title">Limitations</p></td>
+                
+            </tr>
+            <tr class="row">
+                <td><a href="1stnavbaraboutme.html">"Tells about the coder"&#8594;</a></td>
+                <td>Doesn't even remember its own name</td>
+                <td>Intentionally generates incorrect information</td>
+            </tr>
+            <tr class="row">
+                <td><a href="1stnavbarcontactus.html">"Get in touch with coder"&#8594;</a></td>
+                <td>Allows user to get incorrect information</td>
+                <td>seems a waste of time for good coders</td>
+            </tr>
+            <tr class="row">
+                <td><a href="20190406_070514.jpg">"Wanna see my old photo <i class="fa-regular fa-face-laugh-wink"></i>"&#8594;</a></td>
+                <td>Trained to not accept Input from users</td>
+                <td>Limited knowledge of world and events before creation of earth</td>
+            </tr>
+    </table>
+    <div id="form"><label class="label" for="message"></label>
+    <input class="send" type="text" name="mymessage" id="message"placeholder="Send a message." autocomplete="off"></div>
+    
+    <button  type="Submit" class="button"><span class="arrow"><i class="fa-solid fa-paper-plane"></i></span></button>
+    <p class="lastline">Free Learning Preview.कुराकानीGPT cannot produce information about people,place.Its only for educational purpose.कुराकानीGPT June 10 Version</p>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Assignment 5</title>
+</head>
+
+<body>
+    <center>
+        <table width="70%" cellpadding="10px" cellspacing="0px">
+            <tbody>
+                <tr>
+                    <td rowspan="10">
+                        <img src="https://programmingtrick.com/html-assignment/doc.png" width="500px">
+                    </td>
+                    <td colspan="3">
+                        <center>
+                            <h1>Doctor Appointment Form
+                                <hr color="red">
+                            </h1>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Appointment Date</td>
+                    <td colspan="2">
+                        <label fpr="date"></label>
+                        <input type="date" name="mydate" id="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Appointment Time</td>
+                    <td colspan="2">
+                        <label fpr="time"></label>
+                        <input type="time" name="mytime" id="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><label for="firstname"></label>
+                        <input type="text" name="myfirstname" id="firstname" placeholder="First" required>
+                    </td>
+                    <td><label for="latname"></label>
+                        <input type="text" name="mylastname" id="lastname" placeholder="Last" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <label for="gender"></label>
+                        Male<input type="radio" name="gender" id="male">
+                        <label for="gender"></label>
+                        Female<input type="radio" name="gender" id="female">
+                    </td>
+                </tr>
+                <tr>
+                        <td>Phone</td>
+                        <td>
+                            <label for="phone"></label>
+                            <input type="text" name="myphone" id="phone" placeholder="####" required>
+                        </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <label for="city"></label>
+                        <input type="text" name="mycity" id="city" placeholder="city" required>
+                    </td>
+                    <td>
+                        <label for="state"></label>
+                        <input type="text" name="mystate" id="state" placeholder="state" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Your Query</td>
+                    <td colspan="2">
+                        <textarea cols="40"rows="4"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Appointment Type</td>
+                    <td colspan="2">
+                        Select which appointment type(s) you require<br>
+                        <label for="appointment"></label>
+                        <input type="checkbox" name="appointment" id="cervix"> Cervix checkup<br>
+                        <label for="appointment"></label>
+                        <input type="checkbox" name="appointment" id="heart"> Heart checkup<br>
+                        <label for="appointment"></label>
+                        <input type="checkbox" name="appointment" id="eye"> Eye check-up<br>
+                        <label for="appointment"></label>
+                        <input type="checkbox" name="appointment" id="hearing"> Hearing Test
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <input class="button" type="submit" value="Send">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+
+</html>

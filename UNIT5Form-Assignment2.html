@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Assignment 2</title>
+</head>
+<body>
+    <center><table border="1" cellpadding="5px" width="60%">
+        <thead>
+            <tr>
+                <th colspan="4"><center><h2>Registration Form</h2></center></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Student Name</td>
+                <td><label for="firstname"></label>
+                <input type="text" name="myfirstname" id="firstname" placeholder="First Name" required>
+                </td>
+                <td><label for="middletname"></label>
+                <input type="text" name="mymiddlename" id="middlename" placeholder="Middle Name">
+                </td>
+                <td><label for="latname"></label>
+                <input type="text" name="mylastname" id="lastname" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Father's Name</td>
+                <td><label for="fathertname"></label>
+                <input type="text" name="myfathername" id="fathername" placeholder="Enter your father's Name">
+                </td>
+                <td>Mother's Name</td>
+                <td><label for="mothertname"></label>
+                <input type="text" name="mymothername" id="mothername" placeholder="Enter your Mother's Name">
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+            <td>
+                <label for="dob"></label>
+                <input type="date" name="mdob" id="dob" required>
+            </td>
+                <td>Gender</td>
+                <td>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="female">
+                <label for="gender">Others</label>
+                <input type="radio" name="gender" id="others">
+            </td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td><label for="category">BCA</label>
+                    <input type="radio" name="category" id="bca">
+                    <label for="category">BIT</label>
+                    <input type="radio" name="category" id="bit">
+                    <label for="category">Bsc.Csit</label>
+                    <input type="radio" name="category" id="csit">
+                </td>
+                <td>Handicapped</td>
+                <td><label for="handicapped">Yes</label>
+                   <input type="radio" name="handicapped" id="yes">
+                   <label for="handicapped">No</label>
+                   <input type="radio" name="handicapped" id="no">
+                </td>
+            </tr>
+            <tr>
+                <td>Ex-Serviceman</td>
+                <td>
+                    <label for="serviceman">Yes</label>
+                    <input type="radio" name="serviceman" id="yes">
+                    <label for="serviceman">No</label>
+                    <input type="radio" name="serviceman" id="no">
+                    </td>
+                    <td>EWS</td>
+                <td><label for="EWS">Yes</label>
+                    <input type="radio" name="ews" id="yes">
+                    <label for="EWS">No</label>
+                    <input type="radio" name="ews" id="no">
+                </td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td>
+                    <label for="email"></label>
+                    <input type="email" name="myemail" id="email" autocomplete="off" required>
+                </td>
+                <td>Mobile No.</td>
+                <td>
+                    <label for="mobile"></label>
+                    <input type="text" name="mymobile" id="mobile" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Province</td>
+                <td>
+                    <select name="myprovince"id="province" required>
+                        <option value="none"selected>Select any One</option>
+                        <option value="Koshi">Koshi pradesh</option>
+                        <option value="Madhesh">Madhesh Pradesh</option>
+                        <option value="Bagmati">Bagmati Pradesh</option>
+                        <option value="Karnali">Gandaki Pradesh</option>
+                        <option value="Mahakali">Lumbini Pradesh</option>
+                        <option value="Narayani">Karnali Pradesh</option>
+                        <option value="Bheri">Sudur Paschim Pradesh</option></select>
+                </td>
+                <td><label for="district">District</label></td>
+                <td>
+                    <select name="mydisytrict"id="district" required>
+                        <option value="none"selected>Select any One</option>
+                        <option value="Achham">Achham</option>
+                <option value="Arghakhanchi">Arghakhanchi</option>
+                <option value="Baglung">Baglung</option>
+                <option value="Baitadi">Baitadi</option>
+                <option value="Bajhang">Bajhang</option>
+                <option value="Bajura">Bajura</option>
+                <option value="Banke">Banke</option>
+                <option value="Bara">Bara</option>
+                <option value="Bardiya">Bardiya</option>
+                <option value="Bhaktapur">Bhaktapur</option>
+                <option value="Bhojpur">Bhojpur</option>
+                <option value="Chitwan">Chitwan</option>
+                <option value="Dadeldhura">Dadeldhura</option>
+                <option value="Dailekh">Dailekh</option>
+                <option value="Dang">Dang</option>
+                <option value="Darchula">Darchula</option>
+                <option value="Dhading">Dhading</option>
+                <option value="Dhankuta">Dhankuta</option>
+                <option value="Dhanusha">Dhanusha</option>
+                <option value="Dholkha">Dholkha</option>
+                <option value="Dolpa">Dolpa</option>
+                <option value="Doti">Doti</option>
+                <option value="Eastern Rukum">Eastern Rukum</option>
+                <option value="Gorkha">Gorkha</option>
+                <option value="Gulmi">Gulmi</option>
+                <option value="Humla">Humla</option>
+                <option value="Ilam">Ilam</option>
+                <option value="Jajarkot">Jajarkot</option>
+                <option value="Jhapa">Jhapa</option>
+                <option value="Jumla">Jumla</option>
+                <option value="Kailali">Kailali</option>
+                <option value="Kalikot">Kalikot</option>
+                <option value="Kanchanpur">Kanchanpur</option>
+                <option value="Kapilvastu">Kapilvastu</option>
+                <option value="Kaski">Kaski</option>
+                <option value="Kathmandu">Kathmandu</option>
+                <option value="Kavrepalanchok">Kavrepalanchok</option>
+                <option value="Khotang">Khotang</option>
+                <option value="Lalitpur">Lalitpur</option>
+                <option value="Lamjung">Lamjung</option>
+                <option value="Mahottari">Mahottari</option>
+                <option value="Makwanpur">Makwanpur</option>
+                <option value="Manang">Manang</option>
+                <option value="Morang">Morang</option>
+                <option value="Mugu">Mugu</option>
+                <option value="Mustang">Mustang</option>
+                <option value="Myagdi">Myagdi</option>
+                <option value="Nawalpur">Nawalpur</option>
+                <option value="Nuwakot">Nuwakot</option>
+                <option value="Okhaldhunga">Okhaldhunga</option>
+                <option value="Palpa">Palpa</option>
+                <option value="Panchthar">Panchthar</option>
+                <option value="Parbat">Parbat</option>
+                <option value="Parsa">Parsa</option>
+                <option value="Pyuthan">Pyuthan</option>
+                <option value="Ramechhap">Ramechhap</option>
+                <option value="Rasuwa">Rasuwa</option>
+                <option value="Rautahat">Rautahat</option>
+                <option value="Rolpa">Rolpa</option>
+                <option value="Rukum">Rukum</option>
+                <option value="Rupandehi">Rupandehi</option>
+                <option value="Salyan">Salyan</option>
+                <option value="Sankhuwasabha">Sankhuwasabha</option>
+                <option value="Saptari">Saptari</option>
+                <option value="Sarlahi">Sarlahi</option>
+                <option value="Sindhuli">Sindhuli</option>
+                <option value="Sindhupalchok">Sindhupalchok</option>
+                <option value="Siraha">Siraha</option>
+                <option value="Solukhumbu">Solukhumbu</option>
+                <option value="Sunsari">Sunsari</option>
+                <option value="Surkhet">Surkhet</option>
+                <option value="Syangja">Syangja</option>
+                <option value="Tanahun">Tanahun</option>
+                <option value="Taplejung">Taplejung</option>
+                <option value="Terhathum">Terhathum</option>
+                <option value="Udayapur">Udayapur</option>
+                <option value="Western Rukum">Western Rukum</option></select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="photo">Upload Photo</label></td>
+                <td>
+                    <input type="file" name="myphoto" id="photo" required>
+                </td>
+                <td><label for="sign">Upload Signature</label></td>
+                <td>
+                    <input type="file" name="mysign" id="sign" required>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><center><input class="button"type="Submit" value="Submit"></center></td>
+            </tr>
+        </tbody>
+        </table>
+        </center>
+</body>
+</html>
